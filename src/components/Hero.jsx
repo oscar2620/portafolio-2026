@@ -19,8 +19,8 @@ export default function Hero() {
           </h1>
           <p className="mt-6 max-w-xl text-ink-500">
             Líder Frontend en Aventi Solutions. Desarrollo y personalizo interfaces y temas
-            Magento, y construyo componentes con React y JavaScript, siempre enfocado en la
-            experiencia del usuario final.
+            Magento, y construyo componentes con React y JavaScript, apoyado en herramientas de
+            IA como Claude y GitHub Copilot, siempre enfocado en la experiencia del usuario final.
           </p>
 
           <div className="mt-6 flex flex-wrap gap-2">

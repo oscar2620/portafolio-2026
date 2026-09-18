@@ -1,4 +1,5 @@
 import { HiOutlineShoppingBag, HiOutlineUserGroup, HiOutlineClipboardCheck } from 'react-icons/hi'
+import { SiClaude } from 'react-icons/si'
 import oscarPhoto from '../assets/oscar-photo.webp'
 import Reveal from './Reveal.jsx'
 
@@ -17,6 +18,11 @@ const features = [
     icon: HiOutlineClipboardCheck,
     title: 'Buenas prácticas de código',
     desc: 'Code review, control de versiones con Git y metodologías ágiles con JIRA.',
+  },
+  {
+    icon: SiClaude,
+    title: 'IA como parte de mi flujo de trabajo',
+    desc: 'Uso Claude y GitHub Copilot a diario para acelerar mockups, generar imágenes, escribir código y apoyar pruebas.',
   },
 ]
 
