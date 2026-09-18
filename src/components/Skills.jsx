@@ -1,9 +1,10 @@
-import { SiReact, SiJavascript, SiPhp, SiHtml5, SiLess, SiSass, SiJquery, SiGit } from 'react-icons/si'
+import { SiReact, SiJavascript, SiPhp, SiHtml5, SiLess, SiSass, SiJquery, SiGit, SiClaude } from 'react-icons/si'
 import { HiOutlineShoppingBag } from 'react-icons/hi'
 import Reveal from './Reveal.jsx'
 
 const skills = [
   { icon: HiOutlineShoppingBag, title: 'Magento', desc: 'Personalización de temas y funcionalidades para tiendas e-commerce' },
+  { icon: SiClaude, title: 'IA aplicada al desarrollo', desc: 'Uso Claude y GitHub Copilot a diario: planeo mockups, genero imágenes, escribo código y apoyo pruebas' },
   { icon: SiPhp, title: 'PHP', desc: 'Lógica de backend para plataformas como Magento' },
   { icon: SiJavascript, title: 'JavaScript', desc: 'Interactividad, lógica de negocio y consumo de APIs' },
   { icon: SiReact, title: 'React', desc: 'Componentes e interfaces de usuario reutilizables' },
@@ -24,9 +25,9 @@ export default function Skills() {
           </h2>
         </Reveal>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {skills.map((skill, i) => (
-            <Reveal as="div" key={skill.title} delay={(i % 4) * 90}>
+            <Reveal as="div" key={skill.title} delay={(i % 3) * 90}>
               <div className="card h-full">
                 <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-50 text-brand-600">
                   <skill.icon size={20} />
