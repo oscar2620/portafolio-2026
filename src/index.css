@@ -6,6 +6,12 @@
   html {
     scroll-behavior: smooth;
   }
+
+  /* TODO: quitar este bloque y desactivar el badge desde Netlify (Site configuration
+     > General > Status badges) en vez de ocultarlo por CSS. */
+  #nl-badge-frame {
+    display: none !important;
+  }
   body {
     @apply font-sans text-ink-900 antialiased;
   }
